@@ -1,12 +1,11 @@
 import React from 'react';
-import { string, number, boolean } from 'prop-types';
+import { string, number, bool } from 'prop-types';
 
 import './Vineyards.css';
 
 export const VineyardCard = ({name, date_established, location, harvest}) => {
   return (
-    <article className="wine">
-      <p>placeholder img</p>
+    <article className="vineyard">
       <div className="details">
         <h2>{name}</h2>
         <p>{date_established}</p>
@@ -22,5 +21,5 @@ VineyardCard.propTypes = {
   name: string,
   date_established: number,
   location: string,
-  harvest: boolean
+  harvest: bool
 }
