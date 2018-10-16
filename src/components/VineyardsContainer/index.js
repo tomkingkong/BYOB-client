@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { getAllVineyards } from '../../utils/apiCalls';
 import './Vineyards.css';
 
-export class Vineyards extends Component {
+export class VineyardsContainer extends Component {
   constructor() {
     super();
     this.state = {
