@@ -44,6 +44,20 @@ export const postVineyard = (vineyard) => {
     .then(vinId => vinId)
     .catch(err => console.log(err));
 }
+
+export const postWine = (id, wine) => {
+  const url = env + `/${id}/wines`;
+  const payload = {
+    method: 'POST',
+    body: JSON.stringify(wine),
+    headers: { 'Content-Type':'application/json' }
+  }
+  return fetch(url, payload)
+    .then(response => response.json())
+    .then(wineId => wineId)
+    .catch(err => console.log(err));
+}
+
     .then(data => data)
     .catch(err => console.log(err));
 }
