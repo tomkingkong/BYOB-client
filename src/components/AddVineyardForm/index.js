@@ -4,10 +4,10 @@ export class AddVineyardForm extends Component {
   constructor() {
     super();
     this.state = {
-      name: '',
+      vineyard_name: '',
       location: '',
       date_established: '',
-      harvest: true
+      harvest: ''
     };
   }
 
@@ -42,37 +42,44 @@ export class AddVineyardForm extends Component {
   };
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          value={this.state.name}
-          onChange={this.handleChange}
-        />
-        <input
-          type="text"
-          name="location"
-          id="location"
-          value={this.state.location}
-          onChange={this.handleChange}
-        />
-        <input
-          type="date"
-          name="date_established"
-          id="date_established"
-          value={this.state.date_established}
-          onChange={this.handleChange}
-        />
-        <input
-          type="text"
-          name="harvest"
-          id="harvest"
-          value={this.state.harvest}
-          onChange={this.handleChange}
-        />
-        <button>Submit Vineyard</button>
-      </form>
+      <div>
+        <h1>Add New Vineyard Bitch</h1>
+        <form onSubmit={this.handleSubmit}>
+          <input
+            type="text"
+            name="vineyard_name"
+            id="vineyard_name"
+            placeholder="Enter Vineyard Name"
+            value={this.state.name}
+            onChange={this.handleChange}
+          />
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Enter Vineyard Location"
+            value={this.state.location}
+            onChange={this.handleChange}
+          />
+          <input
+            type="text"
+            name="date_established"
+            id="date_established"
+            placeholder="Enter Date Established"
+            value={this.state.date_established}
+            onChange={this.handleChange}
+          />
+          <input
+            type="text"
+            name="harvest"
+            id="harvest"
+            placeholder="Enter Harvest True or False"
+            value={this.state.harvest}
+            onChange={this.handleChange}
+          />
+          <button>Submit Vineyard</button>
+        </form>
+      </div>
     );
   }
 }
