@@ -1,25 +1,40 @@
-import React from 'react';
-import { string, number, bool } from 'prop-types';
+import React, { Component } from 'react';
+import { string, number, func } from 'prop-types';
 
+import { WinesContainer } from '../VineyardsContainer';
 import './Vineyards.css';
 
-export const VineyardCard = ({name, date_established, location, harvest}) => {
-  return (
-    <article className="vineyard">
-      <div className="details">
-        <h2>{name}</h2>
-        <p>{date_established}</p>
-        <p>{location}</p>
-        <p>{harvest}</p>
-        <a href="http://google.com">Wine List</a>
-      </div>
-    </article>
-  )
+export class VineyardCard extends Component {
+  constructor() {
+    super();
+    this.state = {
+      showWine: false
+    }
+  }
+
+  toggleWines = () => {
+    const { displayWines, id } = this.props;
+    displayWines(id);
+  }
+
+  render() {
+    const { name, date_established, location } = this.props;
+    return (
+      <article className="vineyard">
+        <div className="details">
+          <h2>{name}</h2>
+          <p>{date_established}</p>
+          <p>{location}</p>
+          <button onClick={this.toggleWines}>Wine List</button>
+        </div>
+      </article>
+    )
+  }
 }
 
 VineyardCard.propTypes = {
   name: string,
   date_established: number,
   location: string,
-  harvest: bool
+  displayWines: func
 }
