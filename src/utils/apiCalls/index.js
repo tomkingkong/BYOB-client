@@ -16,6 +16,13 @@ export const getAllWines = () => {
     .catch(err => console.log(err));
 }
 
+export const getAVineyard = (id) => {
+  const url = env + `/vineyards/${id}`;
+  return fetch(url)
+    .then(response => response.json())
+    .then(vineyard => vineyard)
+    .catch(err => console.log(err));
+}
     .then(data => data)
     .catch(err => console.log(err));
 }
