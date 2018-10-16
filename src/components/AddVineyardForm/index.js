@@ -40,6 +40,7 @@ export class AddVineyardForm extends Component {
         <input type="text" name="" id="" />
         <input type="text" />
         <input type="text" />
+        <button>Submit Vineyard</button>
       </form>
     );
   }
