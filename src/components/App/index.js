@@ -4,6 +4,7 @@ import './App.css';
 import { Landing } from '../Landing';
 import { WinesContainer } from '../WinesContainer';
 import { VineyardsContainer } from '../VineyardsContainer';
+import { AddVineyardForm } from '../AddVineyardForm';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Landing />
         <VineyardsContainer />
         <WinesContainer />
+        <AddVineyardForm />
       </div>
     );
   }
