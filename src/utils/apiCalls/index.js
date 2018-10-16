@@ -83,6 +83,14 @@ export const updateWine = (id, wine) => {
     .then(wine => wine)
     .catch(err => console.log(err));
 }
+
+export const deleteVineyard = (id) => {
+  const url = env + `/vineyards/${id}`;
+  const payload = {
+    method: 'DELETE'
+  };
+  return fetch(url, payload)
+    .then(response => response.json())
     .then(data => data)
     .catch(err => console.log(err));
 }
