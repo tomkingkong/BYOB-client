@@ -3,7 +3,14 @@ import { string, number } from 'prop-types';
 
 import './Wines.css';
 
-export const WineCard = ({name, production_year, color, grape_type, vineyard, score}) => {
+export const WineCard = ({ 
+  name, 
+  production_year, 
+  color, 
+  grape_type, 
+  score,
+  id, 
+  deleteWine }) => {
   return (
     <article className="wine">
       <svg className="wine-svg" viewBox="0 0 333 400" version="1.1" xmlns="http://www.w3.org/2000/svg" width="50px" height="50px">
@@ -15,9 +22,8 @@ export const WineCard = ({name, production_year, color, grape_type, vineyard, sc
         <h4>{name}</h4><p>{production_year}</p>
         <p>{grape_type}</p>
         <p>{color}</p>
-        <a href="http://google.com">{vineyard}</a>
       </div>
-      <button className="delete">x</button>
+      <button className="delete" onClick={() => deleteWine(id)} />
     </article>
   )
 }

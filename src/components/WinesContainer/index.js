@@ -4,9 +4,11 @@ import { WineCard } from '../WineCard';
 import './Wines.css';
 
 export class WinesContainer extends Component {
+
   displayWines = () => {
-    const { wines } = this.props;
-    return wines.map((wine, i) => <WineCard {...wine} key={i}/>);
+    return this.props.wines.map((wine, i) => {
+      return <WineCard {...wine} key={i} deleteWine={this.props.deleteWine}/>
+    });
   }
 
   render() {

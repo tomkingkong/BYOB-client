@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { string, number, func } from 'prop-types';
 
-import { getVineyardWines } from '../../utils/apiCalls';
+import { getVineyardWines, deleteWine } from '../../utils/apiCalls';
 import { WinesContainer } from '../WinesContainer';
 import './Vineyards.css';
 
@@ -36,6 +36,13 @@ export class VineyardCard extends Component {
     return <p className="empty">Out of Stock!</p>
   }
 
+  deleteWine = (id) => {
+    const { wines } = this.state;
+    deleteWine(id);
+    const winesLeft = wines.filter(wine => wine.id !== id);
+    this.setState({ wines: winesLeft });
+  }
+
   render() {
     const { name, date_established, location } = this.props;
     const { showWine, outOfStock, wines } = this.state;
@@ -54,6 +61,7 @@ export class VineyardCard extends Component {
           </div>
         </article>
         { outOfStock && this.showOutOfStock() }
+        { showWine && <WinesContainer wines={wines} deleteWine={this.deleteWine} /> }
       </React.Fragment>
     )
   }
