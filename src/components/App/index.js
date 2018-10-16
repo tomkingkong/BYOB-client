@@ -11,9 +11,9 @@ class App extends Component {
     return (
       <div className="App">
         <Landing />
+        <AddVineyardForm />
         <VineyardsContainer />
         <WinesContainer />
-        <AddVineyardForm />
       </div>
     );
   }

@@ -21,6 +21,12 @@ export class AddVineyardForm extends Component {
   handleSubmit = e => {
     e.preventDefault();
     this.submitVineyardForm(this.state);
+    this.setState({
+      name: '',
+      location: '',
+      date_established: '',
+      harvest: true
+    });
   };
 
   submitVineyardForm = async vineyardObject => {
@@ -37,8 +43,20 @@ export class AddVineyardForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <input type="text" name="" id="" />
-        <input type="text" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          value={this.state.name}
+          onChange={this.handleChange}
+        />
+        <input
+          type="text"
+          name="location"
+          id="location"
+          value={this.state.location}
+          onChange={this.handleChange}
+        />
         <input type="text" />
         <button>Submit Vineyard</button>
       </form>
