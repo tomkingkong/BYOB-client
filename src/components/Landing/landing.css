@@ -1,0 +1,15 @@
+.landing {
+  background-color: papayawhip;
+  background: url('/images/vineyard.jpeg') no-repeat center 100% / cover;
+  height: 100rem;
+  background-position: fixed;
+}
+
+.landing .title {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  color: palevioletred;
+  font-size: 300%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
