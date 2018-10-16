@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import { Landing } from '../Landing';
+import { Wines } from '../Wines';
+import { Vineyards } from '../Vineyards';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1>Sellers Cellars</h1>
-        </header>
+        <Landing />
+        <Vineyards />
+        <Wines />
       </div>
     );
   }
