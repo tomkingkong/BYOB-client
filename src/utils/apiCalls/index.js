@@ -95,3 +95,13 @@ export const deleteVineyard = (id) => {
     .catch(err => console.log(err));
 }
 
+export const deleteWine = (id) => {
+  const url = env + `/wines/${id}`;
+  const payload = {
+    method: 'DELETE'
+  };
+  return fetch(url, payload)
+    .then(response => response.json())
+    .then(data => data)
+    .catch(err => console.log(err));
+}
