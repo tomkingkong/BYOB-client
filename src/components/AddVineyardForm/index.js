@@ -47,7 +47,7 @@ export class AddVineyardForm extends Component {
   render() {
     return (
       <div>
-        <h1>Add New Vineyard Bitch</h1>
+        <h1>Add New Vineyard</h1>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
