@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WineCard should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WineCard />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <svg
+          className="wine-svg"
+          height="50px"
+          version="1.1"
+          viewBox="0 0 333 400"
+          width="50px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M192.2,260.2c0,0-0.3-72.7-1.4-86.1c-1-13.4-18.2-30.9-19.2-34c-1-3.1-3.4-47.7-2.1-48c1.4-0.3,1.4-2.4,1.4-5.1 c0-2.7-1.7-4.1-1.7-4.1l-0.1-9.9l-12.9,0l0,0l-10.6,0v10.3c0,0-1.7,1.4-1.7,4.1c0,2.7,0,4.8,1.4,5.1c1.4,0.3-1,45-2.1,48 c-1,3.1-18.2,20.6-19.2,34c-1,13.4-1.4,86.1-1.4,86.1l2.4,81.3c0,0-2.7,9.3-1.7,13.7c1,4.5,4.5,6.9,7.2,7.2 c2.7,0.3,26.8-0.3,26.8-0.3l0,0c0,0,24.4,0.3,27.1,0c2.7-0.3,6.2-2.7,7.2-7.2c1-4.5-1.7-13.7-1.7-13.7L192.2,260.2z"
+          />
+        </svg>,
+        <h1
+          className="score"
+        />,
+        <div
+          className="details"
+        >
+          <h4 />
+          <p />
+          <p />
+          <p />
+          <a
+            href="http://google.com"
+          />
+        </div>,
+        <button
+          className="delete"
+        >
+          x
+        </button>,
+        <button
+          className="vineyard-link"
+        >
+          Go to vineyard
+        </button>,
+      ],
+      "className": "wine",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <path
+            d="M192.2,260.2c0,0-0.3-72.7-1.4-86.1c-1-13.4-18.2-30.9-19.2-34c-1-3.1-3.4-47.7-2.1-48c1.4-0.3,1.4-2.4,1.4-5.1 c0-2.7-1.7-4.1-1.7-4.1l-0.1-9.9l-12.9,0l0,0l-10.6,0v10.3c0,0-1.7,1.4-1.7,4.1c0,2.7,0,4.8,1.4,5.1c1.4,0.3-1,45-2.1,48 c-1,3.1-18.2,20.6-19.2,34c-1,13.4-1.4,86.1-1.4,86.1l2.4,81.3c0,0-2.7,9.3-1.7,13.7c1,4.5,4.5,6.9,7.2,7.2 c2.7,0.3,26.8-0.3,26.8-0.3l0,0c0,0,24.4,0.3,27.1,0c2.7-0.3,6.2-2.7,7.2-7.2c1-4.5-1.7-13.7-1.7-13.7L192.2,260.2z"
+          />,
+          "className": "wine-svg",
+          "height": "50px",
+          "version": "1.1",
+          "viewBox": "0 0 333 400",
+          "width": "50px",
+          "xmlns": "http://www.w3.org/2000/svg",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "d": "M192.2,260.2c0,0-0.3-72.7-1.4-86.1c-1-13.4-18.2-30.9-19.2-34c-1-3.1-3.4-47.7-2.1-48c1.4-0.3,1.4-2.4,1.4-5.1 c0-2.7-1.7-4.1-1.7-4.1l-0.1-9.9l-12.9,0l0,0l-10.6,0v10.3c0,0-1.7,1.4-1.7,4.1c0,2.7,0,4.8,1.4,5.1c1.4,0.3-1,45-2.1,48 c-1,3.1-18.2,20.6-19.2,34c-1,13.4-1.4,86.1-1.4,86.1l2.4,81.3c0,0-2.7,9.3-1.7,13.7c1,4.5,4.5,6.9,7.2,7.2 c2.7,0.3,26.8-0.3,26.8-0.3l0,0c0,0,24.4,0.3,27.1,0c2.7-0.3,6.2-2.7,7.2-7.2c1-4.5-1.7-13.7-1.7-13.7L192.2,260.2z",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "path",
+        },
+        "type": "svg",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "score",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4 />,
+            <p />,
+            <p />,
+            <p />,
+            <a
+              href="http://google.com"
+            />,
+          ],
+          "className": "details",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "href": "http://google.com",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "x",
+          "className": "delete",
+        },
+        "ref": null,
+        "rendered": "x",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Go to vineyard",
+          "className": "vineyard-link",
+        },
+        "ref": null,
+        "rendered": "Go to vineyard",
+        "type": "button",
+      },
+    ],
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <svg
+            className="wine-svg"
+            height="50px"
+            version="1.1"
+            viewBox="0 0 333 400"
+            width="50px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M192.2,260.2c0,0-0.3-72.7-1.4-86.1c-1-13.4-18.2-30.9-19.2-34c-1-3.1-3.4-47.7-2.1-48c1.4-0.3,1.4-2.4,1.4-5.1 c0-2.7-1.7-4.1-1.7-4.1l-0.1-9.9l-12.9,0l0,0l-10.6,0v10.3c0,0-1.7,1.4-1.7,4.1c0,2.7,0,4.8,1.4,5.1c1.4,0.3-1,45-2.1,48 c-1,3.1-18.2,20.6-19.2,34c-1,13.4-1.4,86.1-1.4,86.1l2.4,81.3c0,0-2.7,9.3-1.7,13.7c1,4.5,4.5,6.9,7.2,7.2 c2.7,0.3,26.8-0.3,26.8-0.3l0,0c0,0,24.4,0.3,27.1,0c2.7-0.3,6.2-2.7,7.2-7.2c1-4.5-1.7-13.7-1.7-13.7L192.2,260.2z"
+            />
+          </svg>,
+          <h1
+            className="score"
+          />,
+          <div
+            className="details"
+          >
+            <h4 />
+            <p />
+            <p />
+            <p />
+            <a
+              href="http://google.com"
+            />
+          </div>,
+          <button
+            className="delete"
+          >
+            x
+          </button>,
+          <button
+            className="vineyard-link"
+          >
+            Go to vineyard
+          </button>,
+        ],
+        "className": "wine",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <path
+              d="M192.2,260.2c0,0-0.3-72.7-1.4-86.1c-1-13.4-18.2-30.9-19.2-34c-1-3.1-3.4-47.7-2.1-48c1.4-0.3,1.4-2.4,1.4-5.1 c0-2.7-1.7-4.1-1.7-4.1l-0.1-9.9l-12.9,0l0,0l-10.6,0v10.3c0,0-1.7,1.4-1.7,4.1c0,2.7,0,4.8,1.4,5.1c1.4,0.3-1,45-2.1,48 c-1,3.1-18.2,20.6-19.2,34c-1,13.4-1.4,86.1-1.4,86.1l2.4,81.3c0,0-2.7,9.3-1.7,13.7c1,4.5,4.5,6.9,7.2,7.2 c2.7,0.3,26.8-0.3,26.8-0.3l0,0c0,0,24.4,0.3,27.1,0c2.7-0.3,6.2-2.7,7.2-7.2c1-4.5-1.7-13.7-1.7-13.7L192.2,260.2z"
+            />,
+            "className": "wine-svg",
+            "height": "50px",
+            "version": "1.1",
+            "viewBox": "0 0 333 400",
+            "width": "50px",
+            "xmlns": "http://www.w3.org/2000/svg",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "d": "M192.2,260.2c0,0-0.3-72.7-1.4-86.1c-1-13.4-18.2-30.9-19.2-34c-1-3.1-3.4-47.7-2.1-48c1.4-0.3,1.4-2.4,1.4-5.1 c0-2.7-1.7-4.1-1.7-4.1l-0.1-9.9l-12.9,0l0,0l-10.6,0v10.3c0,0-1.7,1.4-1.7,4.1c0,2.7,0,4.8,1.4,5.1c1.4,0.3-1,45-2.1,48 c-1,3.1-18.2,20.6-19.2,34c-1,13.4-1.4,86.1-1.4,86.1l2.4,81.3c0,0-2.7,9.3-1.7,13.7c1,4.5,4.5,6.9,7.2,7.2 c2.7,0.3,26.8-0.3,26.8-0.3l0,0c0,0,24.4,0.3,27.1,0c2.7-0.3,6.2-2.7,7.2-7.2c1-4.5-1.7-13.7-1.7-13.7L192.2,260.2z",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "path",
+          },
+          "type": "svg",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "score",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4 />,
+              <p />,
+              <p />,
+              <p />,
+              <a
+                href="http://google.com"
+              />,
+            ],
+            "className": "details",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "href": "http://google.com",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "x",
+            "className": "delete",
+          },
+          "ref": null,
+          "rendered": "x",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Go to vineyard",
+            "className": "vineyard-link",
+          },
+          "ref": null,
+          "rendered": "Go to vineyard",
+          "type": "button",
+        },
+      ],
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
