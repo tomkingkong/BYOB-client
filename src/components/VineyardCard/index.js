@@ -10,6 +10,7 @@ export class VineyardCard extends Component {
     super();
     this.state = {
       showWine: false,
+      outOfStock: false,
       wines: []
     }
   }
@@ -18,14 +19,26 @@ export class VineyardCard extends Component {
     const { id } = this.props;
     if (!this.state.wines.length) {
       let wines = await getVineyardWines(id);
+      if (wines.status === 'failed') {
+        return this.setState({ outOfStock: true })
+      } else {
+        this.setState({ outOfStock: false })
+      }
       this.setState({ wines: wines.data });
     }
     this.setState({ showWine: !this.state.showWine });
   }
 
+  showOutOfStock = () => {
+    setTimeout(() => {
+      this.setState({ outOfStock: false});
+    }, 4000)
+    return <p className="empty">Out of Stock!</p>
+  }
+
   render() {
     const { name, date_established, location } = this.props;
-    const { showWine, wines } = this.state;
+    const { showWine, outOfStock, wines } = this.state;
     return (
       <React.Fragment>
         <article className="vineyard">
@@ -40,7 +53,7 @@ export class VineyardCard extends Component {
             </button>
           </div>
         </article>
-        { showWine && <WinesContainer wines={wines} /> }
+        { outOfStock && this.showOutOfStock() }
       </React.Fragment>
     )
   }

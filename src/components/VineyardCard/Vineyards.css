@@ -53,3 +53,11 @@
   box-shadow: inset 0rem 0rem 0.5rem rgb(45, 51, 107);
   background: rgb(75, 82, 119);
 }
+
+.empty {
+  color: indianred;
+  font-weight: 600;
+  font-size: 180%;
+  width: fit-content;
+  margin: 0 auto;
+}
