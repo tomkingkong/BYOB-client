@@ -11,13 +11,13 @@ export const WineCard = ({name, production_year, color, grape_type, vineyard, sc
       </svg>
       <h1 className="score">{score}</h1>
       <div className="details">
+        <button className="favorite" />
         <h4>{name}</h4><p>{production_year}</p>
         <p>{grape_type}</p>
         <p>{color}</p>
         <a href="http://google.com">{vineyard}</a>
       </div>
       <button className="delete">x</button>
-      <button className="vineyard-link">Go to vineyard</button>
     </article>
   )
 }
