@@ -4,10 +4,11 @@ export class AddVineyardForm extends Component {
   constructor() {
     super();
     this.state = {
+      vineyardArray: [],
       vineyard_name: '',
       location: '',
       date_established: '',
-      harvest: ''
+      harvest: true
     };
   }
 
@@ -38,7 +39,10 @@ export class AddVineyardForm extends Component {
         'Content-Type': 'application/json'
       }
     });
-    return response;
+    const data = await response.json();
+    this.setState({
+      vineyardArray: [...this.state.vineyardArray, data]
+    });
   };
   render() {
     return (
