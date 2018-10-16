@@ -1,17 +1,21 @@
-const env = process.env.REACT_APP_DATABASE_API_URL;
+const env = process.env.REACT_APP_DATABASE_API_URL + '/api/v1';
 
 export const getAllVineyards = () => {
-  const url = env + '/api/v1/vineyards';
+  const url = env + '/vineyards';
   return fetch(url)
     .then(res => res.json())
-    .then(data => data)
+    .then(vineyards => vineyards)
     .catch(err => console.log(err));
 }
 
 export const getAllWines = () => {
-  const url = env + '/api/v1/wines';
+  const url = env + '/wines';
   return fetch(url)
     .then(res => res.json())
+    .then(wines => wines)
+    .catch(err => console.log(err));
+}
+
     .then(data => data)
     .catch(err => console.log(err));
 }
