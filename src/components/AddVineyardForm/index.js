@@ -57,7 +57,20 @@ export class AddVineyardForm extends Component {
           value={this.state.location}
           onChange={this.handleChange}
         />
-        <input type="text" />
+        <input
+          type="date"
+          name="date_established"
+          id="date_established"
+          value={this.state.date_established}
+          onChange={this.handleChange}
+        />
+        <input
+          type="text"
+          name="harvest"
+          id="harvest"
+          value={this.state.harvest}
+          onChange={this.handleChange}
+        />
         <button>Submit Vineyard</button>
       </form>
     );
