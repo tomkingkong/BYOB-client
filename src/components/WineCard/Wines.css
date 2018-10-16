@@ -1,14 +1,27 @@
 .wine {
+  cursor: default;
   box-shadow: 0rem 0.1rem 0.35rem 0.01rem rgb(153, 152, 152);
   border-radius: 0.15rem;
   display: flex;
   align-items: center;
   position: relative;
-  min-width: 15rem;
-  min-height: 8rem;
+  min-width: 10rem;
+  min-height: 2rem;
   width: 100%;
-  max-width: 20rem;
+  height: 4rem;
+  max-width: 30rem;
   margin: 1rem auto;
+  transition: all 0.05s linear;
+}
+
+.wine:hover{
+  color: white;
+  /* background: rgb(84, 84, 160); */
+  background: purple;
+}
+
+.wine:hover .score {
+  color: rgb(248, 203, 3);
 }
 
 .wine-svg {
@@ -27,6 +40,7 @@
 }
 
 .details {
+  display: flex;
   margin: 0.5rem;
 }
 
@@ -74,6 +88,29 @@
 
 .vineyard-link:active {
   box-shadow: none;
+}
+
+.favorite {
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  font-size: 100%;
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.favorite:after {
+  content: '☆';
+}
+
+.favorite:hover:after {
+  content: '★';
+  font-size: 120%;
+  color: rgb(248, 203, 3);
 }
 
 
