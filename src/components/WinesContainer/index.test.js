@@ -4,7 +4,7 @@ import { WinesContainer } from '.';
 
 describe('WinesContainer', () => {
   it('should match snapshot', () => {
-    const wrapper = shallow(<WinesContainer />);
+    const wrapper = shallow(<WinesContainer wines={[]}/>);
     expect(wrapper).toMatchSnapshot();
   })
 })
