@@ -35,7 +35,7 @@ export class AddWineForm extends Component {
   };
 
   submitWineForm = async wineObject => {
-    const url = 'http://localhost:3010/api/v1/vineyards';
+    const url = 'http://localhost:3010/api/v1/wines';
     const response = await fetch(url, {
       method: 'POST',
       body: JSON.stringify(wineObject),
@@ -78,6 +78,31 @@ export class AddWineForm extends Component {
             value={this.state.color}
             onChange={this.handleChange}
           />
+          <input
+            type="text"
+            name="production_year"
+            id="production_id"
+            placeholder="Enter Year Wine Produced"
+            value={this.state.production_year}
+            onChange={this.handleChange}
+          />
+          <input
+            type="text"
+            name="score"
+            id="score"
+            placeholder="Enter Wine Score"
+            value={this.state.score}
+            onChange={this.handleChange}
+          />
+          <input
+            type="text"
+            name="price"
+            id="price"
+            placeholder="Enter Wine Price"
+            value={this.state.price}
+            onChange={this.handleChange}
+          />
+          <button>Submit Wine</button>
         </form>
       </div>
     );
