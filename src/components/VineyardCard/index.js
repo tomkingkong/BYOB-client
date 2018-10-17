@@ -3,6 +3,7 @@ import { string, number, func } from 'prop-types';
 
 import { getVineyardWines, deleteWine } from '../../utils/apiCalls';
 import { WinesContainer } from '../WinesContainer';
+import { WineForm } from '../WineForm';
 import './Vineyards.css';
 
 export class VineyardCard extends Component {
@@ -31,7 +32,7 @@ export class VineyardCard extends Component {
 
   showOutOfStock = () => {
     setTimeout(() => {
-      this.setState({ outOfStock: false});
+      // this.setState({ outOfStock: false});
     }, 4000)
     return <p className="empty">Out of Stock!</p>
   }
@@ -44,7 +45,7 @@ export class VineyardCard extends Component {
   }
 
   render() {
-    const { name, date_established, location } = this.props;
+    const { name, date_established, location, id } = this.props;
     const { showWine, outOfStock, wines } = this.state;
     return (
       <React.Fragment>
@@ -61,6 +62,7 @@ export class VineyardCard extends Component {
           </div>
         </article>
         { outOfStock && this.showOutOfStock() }
+        { showWine && <WineForm vineyard_id={id}/> }
         { showWine && <WinesContainer wines={wines} deleteWine={this.deleteWine} /> }
       </React.Fragment>
     )
@@ -71,5 +73,6 @@ VineyardCard.propTypes = {
   name: string,
   date_established: number,
   location: string,
-  displayWines: func
+  displayWines: func,
+  id: number
 }
