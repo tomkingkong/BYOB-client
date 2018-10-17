@@ -15,9 +15,13 @@
 }
 
 .wine:hover{
-  color: white;
+  color: #fff;
   /* background: rgb(84, 84, 160); */
   background: purple;
+}
+
+.wine:hover .wine-svg {
+  fill: #fff;
 }
 
 .wine:hover .score {
