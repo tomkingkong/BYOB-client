@@ -1,16 +1,16 @@
 language: node_js
 node_js:
-  - 'stable'
+- stable
 cache:
   directories:
-    - node_modules
+  - node_modules
 script:
-  - npm test
-  - npm run build
+- npm test
+- npm run build
 deploy:
   provider: heroku
   api_key:
-    secure: gTugsp6VxpHaiDjYVcrowg4bWidQC+pyL66Gg5o9KkQSloWvHrOk5PhfeD6HeS0LI1b1CdXI1ZZTbC9AiG9BGlkcB19rUmkuv6VIcR62pljKxgbHV7UTrhrL3yuaXYUdG9K4bpYpWw3uy+rM+aq5eYSSKfcHGZJHjsodunf8GwJBWtHovy+y+eacRz7/B2opaRmXMwF1W17H335BMyaPook+DwllfBH00yMFxiBYqDYnPmcZMtwx1MgwKC5EFAP+rDRf25Oe6uckGwfzjEZYJovZFJuH8Udc1BiFAZjZUbN5aHnABsEpm4ImSZcbB1l+mWunqXBJYZQnBoNvUDGwwQooJATG/BXp7zXmXViEvpof0OrVeCSmrHj9viRfApvjjlRw7kewZ6Es8pZiVISWW0B27hn4TaU/G1Bd25cc4/2c7BcBYr6ZNz7ocskCkVmiU3p2yDH2DV1G/hVNzw/MrXitYUO1un3WjabEEnWrXcz/B3kW1iyRFyVRZB44l0t/jERudeIL2HAzXuiisQiDGL43Vy7OgpaumnKwnvY+D+vbZ1jDSXhb88v7dJmvyDPFDCTC1kulwithMPPCJwPZTCYcmXkJQzgIR3TCgLbPvrjkSCw3a3Td26LeGfrGDe1DiR5/7OKDaBYdCbICmobJgM0sjiTjiWM3LsoUVvVrdsw=
+    secure: YngxKNT1H52VQPDhEYSuLveRKpwR/SS1mR8poRC9QK+kpbfO1xryprnqly0p99SAGoQiU3HRj7Vg0/BHBmbUsp33bE9woqhtI4UCsGVgpmCFRW3D/fzFjDUEmFtWjF9W58JmdVsr+m+iQVjN6sk49baiHy5nnD99sLpZQbfEKPRDznt/CxjjVWMxievKxafRkAVGabcYCBCHCFwpdkNR7NL3W4l2uFwYEJ7Ujr5l5ddvgxXeXM8Bs+y+JRw2FXv4ZpE1TJkUHZPsyqTyEqo2uekswUcq7C31cxIhtUpK1ENEigJR+xuPXV8RhOAbJ6/k0b4BbU2hueUyTzpua9M77CgvaK2zakZpqKBSBNijuWz310FC3AHaWK6PLaIn6BBlNIAez5fdf6xw9R6X74Cwb6yj8pLDK6QTlcWIPZOzjd4AQ2MnXe2yxrAlV70v5uiAGvQBKY7RPH18RVRDtCZmLvONkzeUtMsGIckufllyt603jOPa6ljeAS0cBVGsfL2dPq+Pwu29pC/KvxClJk4YD+RJxyS0zMGRYFHtZVCxV6+a37emHTa+eN2Mgndyuj1eJw1kHmkHloARz/ipLmTs0NmnBhqYuRlL3KwukcablmAzFkGBw/ilHxZMbLHjlFc5X3r3jlOIs5aHklV9MARG7CDDvLAPzN2rtv6JnBwfsw4=
   app: ml-tk-sellers-cellars
   skip_cleanup: true
   on:
