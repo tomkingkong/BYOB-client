@@ -13,10 +13,6 @@
   margin: 0.5rem auto;
 }
 
-.vineyard > .details:hover {
-  background: rgb(246, 255, 237);
-}
-
 .vineyard > .details {
   cursor: default;
   display: flex;
@@ -33,6 +29,19 @@
   margin: 0;
   padding: 0 5%;
   transition: all 0.15s ease-in;
+}
+
+.vineyard > .details:hover {
+  background: rgb(240, 248, 250);
+}
+
+.vineyard > .details h2 {
+  font-family: glory;
+  font-size: 140%;
+}
+
+.vineyard > .details:hover h2 {
+  color: rgb(139, 103, 4);
 }
 
 .view-wines {
@@ -60,4 +69,20 @@
   font-size: 180%;
   width: fit-content;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 320px) {
+  .vineyard > .details {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .vineyard {
+    height: fit-content;
+  }
+
+  .view-wines {
+    height: 2rem;
+    margin: 0 0 0.5rem 0;
+  }
 }
