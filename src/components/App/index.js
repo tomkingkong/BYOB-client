@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import './App.css';
 import { Landing } from '../Landing';
-import { WinesContainer } from '../WinesContainer';
 import { VineyardsContainer } from '../VineyardsContainer';
 
 class App extends Component {
@@ -11,7 +10,6 @@ class App extends Component {
       <div className="App">
         <Landing />
         <VineyardsContainer />
-        <WinesContainer />
       </div>
     );
   }

@@ -32,6 +32,14 @@ export const getAWine = (id) => {
     .catch(err => console.log(err));
 }
 
+export const getVineyardWines = (vineyardId) => {
+  const url = env + `/wines?vineyard_id=${vineyardId}`;
+  return fetch(url)
+    .then(response => response.json())
+    .then(wines => wines)
+    .catch(err => console.log(err));
+}
+
 export const postVineyard = (vineyard) => {
   const url = env + '/vineyards';
   const payload = {
