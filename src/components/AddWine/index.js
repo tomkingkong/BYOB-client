@@ -35,7 +35,7 @@ export class AddWineForm extends Component {
   };
 
   submitWineForm = async wineObject => {
-    const url = 'http://localhost:3010/api/v1/wines';
+    const url = 'http://localhost:3010/api/v1/:vineyard_id/wines';
     const response = await fetch(url, {
       method: 'POST',
       body: JSON.stringify(wineObject),
