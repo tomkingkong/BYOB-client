@@ -4,7 +4,7 @@ export class AddVineyardForm extends Component {
   constructor() {
     super();
     this.state = {
-      vineyardArray: [],
+      vineyards: [],
       vineyard_name: '',
       location: '',
       date_established: '',
@@ -41,7 +41,7 @@ export class AddVineyardForm extends Component {
     });
     const data = await response.json();
     this.setState({
-      vineyardArray: [...this.state.vineyardArray, data]
+      vineyards: [...this.state.vineyards, data]
     });
   };
   render() {
