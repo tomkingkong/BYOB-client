@@ -48,4 +48,38 @@ export class AddWineForm extends Component {
       wines: [...this.state.wines, data]
     });
   };
+
+  render() {
+    return (
+      <div>
+        <h1>Add New Wine</h1>
+        <form onSubmit={this.handleSubmit}>
+          <input
+            type="text"
+            name="wine_name"
+            id="wine_name"
+            placeholder="Enter Wine Name"
+            value={this.state.name}
+            onChange={this.handleChange}
+          />
+          <input
+            type="text"
+            name="grape_type"
+            id="grape_type"
+            placeholder="Enter Grape Type"
+            value={this.state.grape_type}
+            onChange={this.handleChange}
+          />
+          <input
+            type="text"
+            name="color"
+            id="color"
+            placeholder="Enter Wine Color"
+            value={this.state.color}
+            onChange={this.handleChange}
+          />
+        </form>
+      </div>
+    );
+  }
 }
