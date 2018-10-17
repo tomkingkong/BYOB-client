@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VineyardForm should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VineyardForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Add New Vineyard
+        </h1>,
+        <input
+          id="name"
+          maxLength="26"
+          name="name"
+          onChange={[Function]}
+          placeholder="Enter Vineyard Name"
+          required={true}
+          type="text"
+          value=""
+        />,
+        <input
+          id="location"
+          name="location"
+          onChange={[Function]}
+          placeholder="Enter Vineyard Location"
+          required={true}
+          type="text"
+          value=""
+        />,
+        <input
+          id="date_established"
+          maxLength="4"
+          name="date_established"
+          onChange={[Function]}
+          placeholder="ex. 2018"
+          required={true}
+          type="number"
+          value=""
+        />,
+        <input
+          id="harvest"
+          name="harvest"
+          onChange={[Function]}
+          placeholder="Enter Harvest True or False"
+          type="radio"
+          value={true}
+        />,
+        <button>
+          Submit Vineyard
+        </button>,
+      ],
+      "className": "VineyardForm",
+      "onSubmit": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add New Vineyard",
+        },
+        "ref": null,
+        "rendered": "Add New Vineyard",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "name",
+          "maxLength": "26",
+          "name": "name",
+          "onChange": [Function],
+          "placeholder": "Enter Vineyard Name",
+          "required": true,
+          "type": "text",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "location",
+          "name": "location",
+          "onChange": [Function],
+          "placeholder": "Enter Vineyard Location",
+          "required": true,
+          "type": "text",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "date_established",
+          "maxLength": "4",
+          "name": "date_established",
+          "onChange": [Function],
+          "placeholder": "ex. 2018",
+          "required": true,
+          "type": "number",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "harvest",
+          "name": "harvest",
+          "onChange": [Function],
+          "placeholder": "Enter Harvest True or False",
+          "type": "radio",
+          "value": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Submit Vineyard",
+        },
+        "ref": null,
+        "rendered": "Submit Vineyard",
+        "type": "button",
+      },
+    ],
+    "type": "form",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Add New Vineyard
+          </h1>,
+          <input
+            id="name"
+            maxLength="26"
+            name="name"
+            onChange={[Function]}
+            placeholder="Enter Vineyard Name"
+            required={true}
+            type="text"
+            value=""
+          />,
+          <input
+            id="location"
+            name="location"
+            onChange={[Function]}
+            placeholder="Enter Vineyard Location"
+            required={true}
+            type="text"
+            value=""
+          />,
+          <input
+            id="date_established"
+            maxLength="4"
+            name="date_established"
+            onChange={[Function]}
+            placeholder="ex. 2018"
+            required={true}
+            type="number"
+            value=""
+          />,
+          <input
+            id="harvest"
+            name="harvest"
+            onChange={[Function]}
+            placeholder="Enter Harvest True or False"
+            type="radio"
+            value={true}
+          />,
+          <button>
+            Submit Vineyard
+          </button>,
+        ],
+        "className": "VineyardForm",
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add New Vineyard",
+          },
+          "ref": null,
+          "rendered": "Add New Vineyard",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "name",
+            "maxLength": "26",
+            "name": "name",
+            "onChange": [Function],
+            "placeholder": "Enter Vineyard Name",
+            "required": true,
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "location",
+            "name": "location",
+            "onChange": [Function],
+            "placeholder": "Enter Vineyard Location",
+            "required": true,
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "date_established",
+            "maxLength": "4",
+            "name": "date_established",
+            "onChange": [Function],
+            "placeholder": "ex. 2018",
+            "required": true,
+            "type": "number",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "harvest",
+            "name": "harvest",
+            "onChange": [Function],
+            "placeholder": "Enter Harvest True or False",
+            "type": "radio",
+            "value": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Submit Vineyard",
+          },
+          "ref": null,
+          "rendered": "Submit Vineyard",
+          "type": "button",
+        },
+      ],
+      "type": "form",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

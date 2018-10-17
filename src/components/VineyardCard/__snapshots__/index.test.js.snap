@@ -15,41 +15,156 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": <div
-        className="details"
-      >
-        <h2 />
-        <p />
-        <p />
-        <p />
-        <a
-          href="http://google.com"
+      "children": Array [
+        <article
+          className="vineyard"
         >
-          Wine List
-        </a>
-      </div>,
-      "className": "vineyard",
+          <div
+            className="details"
+          >
+            <h2 />
+            <p />
+            <p />
+            <button
+              className="view-wines"
+              onClick={[Function]}
+            >
+              View Wine List
+            </button>
+          </div>
+        </article>,
+        false,
+        false,
+      ],
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="details"
+          >
+            <h2 />
+            <p />
+            <p />
+            <button
+              className="view-wines"
+              onClick={[Function]}
+            >
+              View Wine List
+            </button>
+          </div>,
+          "className": "vineyard",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2 />,
+              <p />,
+              <p />,
+              <button
+                className="view-wines"
+                onClick={[Function]}
+              >
+                View Wine List
+              </button>,
+            ],
+            "className": "details",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "View Wine List",
+                "className": "view-wines",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "View Wine List",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "article",
+      },
+      false,
+      false,
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <h2 />,
-          <p />,
-          <p />,
-          <p />,
-          <a
-            href="http://google.com"
+          <article
+            className="vineyard"
           >
-            Wine List
-          </a>,
+            <div
+              className="details"
+            >
+              <h2 />
+              <p />
+              <p />
+              <button
+                className="view-wines"
+                onClick={[Function]}
+              >
+                View Wine List
+              </button>
+            </div>
+          </article>,
+          false,
+          false,
         ],
-        "className": "details",
       },
       "ref": null,
       "rendered": Array [
@@ -58,164 +173,97 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "h2",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Wine List",
-            "href": "http://google.com",
-          },
-          "ref": null,
-          "rendered": "Wine List",
-          "type": "a",
-        },
-      ],
-      "type": "div",
-    },
-    "type": "article",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
-          className="details"
-        >
-          <h2 />
-          <p />
-          <p />
-          <p />
-          <a
-            href="http://google.com"
-          >
-            Wine List
-          </a>
-        </div>,
-        "className": "vineyard",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h2 />,
-            <p />,
-            <p />,
-            <p />,
-            <a
-              href="http://google.com"
+            "children": <div
+              className="details"
             >
-              Wine List
-            </a>,
-          ],
-          "className": "details",
+              <h2 />
+              <p />
+              <p />
+              <button
+                className="view-wines"
+                onClick={[Function]}
+              >
+                View Wine List
+              </button>
+            </div>,
+            "className": "vineyard",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2 />,
+                <p />,
+                <p />,
+                <button
+                  className="view-wines"
+                  onClick={[Function]}
+                >
+                  View Wine List
+                </button>,
+              ],
+              "className": "details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View Wine List",
+                  "className": "view-wines",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "View Wine List",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "article",
         },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Wine List",
-              "href": "http://google.com",
-            },
-            "ref": null,
-            "rendered": "Wine List",
-            "type": "a",
-          },
-        ],
-        "type": "div",
-      },
-      "type": "article",
+        false,
+        false,
+      ],
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {
