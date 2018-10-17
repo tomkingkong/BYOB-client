@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import { getAllVineyards } from '../../utils/apiCalls';
 import { VineyardCard } from '../VineyardCard';
+import { VineyardForm } from '../VineyardForm';
 import './Vineyards.css';
 
 export class VineyardsContainer extends Component {
@@ -22,9 +23,14 @@ export class VineyardsContainer extends Component {
     return vineyards.map((v, i) => <VineyardCard {...v} key={i} />);
   }
 
+  addNewVineyard = (vineyard) => {
+    this.setState({ vineyards: [vineyard, ...this.state.vineyards] })
+  }
+
   render() {
     return (
       <section className="Vineyards">
+        <VineyardForm addNewVineyard={this.addNewVineyard} />
         { this.displayVineyards() }
       </section>
     )
