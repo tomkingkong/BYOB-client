@@ -30,13 +30,6 @@ export class VineyardCard extends Component {
     this.setState({ showWine: !this.state.showWine });
   }
 
-  showOutOfStock = () => {
-    setTimeout(() => {
-      // this.setState({ outOfStock: false});
-    }, 4000)
-    return <p className="empty">Out of Stock!</p>
-  }
-
   addNewWine = (wine) => {
     this.setState({ wines: [wine,...this.state.wines], outOfStock: false });
   }
