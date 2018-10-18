@@ -15,9 +15,13 @@
 }
 
 .wine:hover{
-  color: white;
+  color: #fff;
   /* background: rgb(84, 84, 160); */
   background: purple;
+}
+
+.wine:hover .wine-svg {
+  fill: #fff;
 }
 
 .wine:hover .score {
@@ -121,6 +125,27 @@
   content: '★';
   font-size: 120%;
   color: rgb(248, 203, 3);
+}
+
+@media only screen and (max-width: 460px) {
+  .wine {
+    height: 8rem;
+  }
+
+  .wine > .details {
+    flex-direction: column;
+  }
+
+  .wine > .details p {
+    margin: 0.2rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 256px) {
+  .wine {
+    height: fit-content;
+    flex-direction: column;
+  }
 }
 
 
