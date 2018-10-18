@@ -2,6 +2,7 @@
   cursor: default;
   box-shadow: 0rem 0.1rem 0.35rem 0.01rem rgb(153, 152, 152);
   border-radius: 0.15rem;
+  background: #fff;
   display: flex;
   align-items: center;
   position: relative;

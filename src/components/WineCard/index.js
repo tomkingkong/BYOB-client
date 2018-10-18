@@ -1,5 +1,5 @@
 import React from 'react';
-import { string, number } from 'prop-types';
+import { string, number, func } from 'prop-types';
 
 import './Wines.css';
 
@@ -31,10 +31,12 @@ export const WineCard = ({
 }
 
 WineCard.propTypes = {
+  id: number,
   name: string,
   production_year: number,
   color: string,
   grape_type: string,
   score: number,
-  vineyard: string
+  deleteWine: func,
+  price: string
 }
