@@ -37,6 +37,7 @@ ShallowWrapper {
         </article>,
         false,
         false,
+        false,
       ],
     },
     "ref": null,
@@ -135,6 +136,7 @@ ShallowWrapper {
       },
       false,
       false,
+      false,
     ],
     "type": Symbol(react.fragment),
   },
@@ -162,6 +164,7 @@ ShallowWrapper {
               </button>
             </div>
           </article>,
+          false,
           false,
           false,
         ],
@@ -260,6 +263,7 @@ ShallowWrapper {
           },
           "type": "article",
         },
+        false,
         false,
         false,
       ],
