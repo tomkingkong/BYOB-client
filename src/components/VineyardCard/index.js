@@ -41,12 +41,16 @@ export class VineyardCard extends Component {
     this.setState({ wines: winesLeft });
   }
 
+  hide = () => {
+    return this.props.hide ? {'display': 'none'} : {'display':'flex'}
+  }
+
   render() {
     const { name, date_established, location, id } = this.props;
     const { showWine, outOfStock, wines } = this.state;
     return (
       <React.Fragment>
-        <article className="vineyard">
+        <article className="vineyard" style={this.hide()}>
           <div className="details">
             <h2>{name}</h2>
             <p>{date_established}</p>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { func, number } from 'prop-types'
 
 import { postWine } from '../../utils/apiCalls';
 import './WineForm.css';
@@ -99,4 +100,9 @@ export class WineForm extends Component {
       </form>
     );
   }
+}
+
+WineForm.propTypes = {
+  vineyard_id: number, 
+  addNewWine: func
 }

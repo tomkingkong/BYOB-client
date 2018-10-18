@@ -20,6 +20,11 @@ ShallowWrapper {
       "children": Array [
         <article
           className="vineyard"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
         >
           <div
             className="details"
@@ -61,6 +66,9 @@ ShallowWrapper {
             </button>
           </div>,
           "className": "vineyard",
+          "style": Object {
+            "display": "flex",
+          },
         },
         "ref": null,
         "rendered": Object {
@@ -149,6 +157,11 @@ ShallowWrapper {
         "children": Array [
           <article
             className="vineyard"
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
           >
             <div
               className="details"
@@ -190,6 +203,9 @@ ShallowWrapper {
               </button>
             </div>,
             "className": "vineyard",
+            "style": Object {
+              "display": "flex",
+            },
           },
           "ref": null,
           "rendered": Object {

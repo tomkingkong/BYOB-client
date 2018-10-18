@@ -18,15 +18,29 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
+        <SearchVineyards
+          filterVineyards={[Function]}
+        />,
+        Array [],
         <VineyardForm
           addNewVineyard={[Function]}
         />,
-        Array [],
       ],
       "className": "Vineyards",
     },
     "ref": null,
     "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "filterVineyards": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
       Object {
         "instance": null,
         "key": undefined,
@@ -48,15 +62,29 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          <SearchVineyards
+            filterVineyards={[Function]}
+          />,
+          Array [],
           <VineyardForm
             addNewVineyard={[Function]}
           />,
-          Array [],
         ],
         "className": "Vineyards",
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "filterVineyards": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
           "instance": null,
           "key": undefined,
