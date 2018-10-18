@@ -9,6 +9,7 @@ export const WineCard = ({
   color, 
   grape_type, 
   score,
+  price,
   id, 
   deleteWine }) => {
   return (
@@ -22,6 +23,7 @@ export const WineCard = ({
         <h4>{name}</h4><p>{production_year}</p>
         <p>{grape_type}</p>
         <p>{color}</p>
+        <p>{price}</p>
       </div>
       <button className="delete" onClick={() => deleteWine(id)} />
     </article>
