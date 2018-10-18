@@ -43,6 +43,7 @@ ShallowWrapper {
           <p />
           <p />
           <p />
+          <p />
         </div>,
         <button
           className="delete"
@@ -107,6 +108,7 @@ ShallowWrapper {
             <p />,
             <p />,
             <p />,
+            <p />,
           ],
           "className": "details",
         },
@@ -133,6 +135,17 @@ ShallowWrapper {
             "ref": null,
             "rendered": null,
             "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
           },
           Object {
             "instance": null,
@@ -217,6 +230,7 @@ ShallowWrapper {
             <p />
             <p />
             <p />
+            <p />
           </div>,
           <button
             className="delete"
@@ -281,6 +295,7 @@ ShallowWrapper {
               <p />,
               <p />,
               <p />,
+              <p />,
             ],
             "className": "details",
           },
@@ -307,6 +322,17 @@ ShallowWrapper {
               "ref": null,
               "rendered": null,
               "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
             },
             Object {
               "instance": null,

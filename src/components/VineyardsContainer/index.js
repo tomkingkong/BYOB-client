@@ -21,7 +21,7 @@ export class VineyardsContainer extends Component {
   displayVineyards = () => {
     const { vineyards } = this.state;
     return vineyards.map((v, i) => <VineyardCard {...v} key={i} />);
-  }
+  }  
 
   addNewVineyard = (vineyard) => {
     this.setState({ vineyards: [vineyard, ...this.state.vineyards] })

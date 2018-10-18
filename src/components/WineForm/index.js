@@ -31,9 +31,9 @@ export class WineForm extends Component {
 
   handleSubmit = async e => {
     e.preventDefault();
-    const { vineyard_id } = this.props;
+    const { vineyard_id, addNewWine } = this.props;
     const { id } = await postWine(vineyard_id, {...this.state, vineyard_id});
-
+    addNewWine({...this.state, id});
     this.resetState(initialState);
   };
 
@@ -46,7 +46,7 @@ export class WineForm extends Component {
           type="text"
           name="name"
           id="wine_name"
-          placeholder="Enter Wine Name"
+          placeholder="Wine Name"
           value={name}
           onChange={this.handleChange}
           maxLength="26"
@@ -56,36 +56,33 @@ export class WineForm extends Component {
           type="text"
           name="grape_type"
           id="grape_type"
-          placeholder="Enter Grape Type"
+          placeholder="Grape Type"
           value={grape_type}
           onChange={this.handleChange}
-          required
         />
         <input
           type="text"
           name="color"
           id="color"
-          placeholder="Enter Wine Color"
+          placeholder="Wine Color"
           value={color}
           onChange={this.handleChange}
           maxLength="5"
-          required
         />
         <input
           type="number"
           name="production_year"
           id="production_id"
-          placeholder="Enter Year Wine Produced"
+          placeholder="Year"
           value={production_year}
           onChange={this.handleChange}
           maxLength="4"
-          required
         />
         <input
           type="number"
           name="score"
           id="score"
-          placeholder="Enter Wine Score"
+          placeholder="Score"
           value={score}
           onChange={this.handleChange}
           maxLength="3"
@@ -94,11 +91,11 @@ export class WineForm extends Component {
           type="text"
           name="price"
           id="price"
-          placeholder="Enter Wine Price"
+          placeholder="Price"
           value={price}
           onChange={this.handleChange}
         />
-        <button>Submit Wine</button>
+        <button>+</button>
       </form>
     );
   }
