@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WineForm should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WineForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Add New Wine
+        </h1>,
+        <form>
+          <input
+            id="wine_name"
+            name="wine_name"
+            onChange={[Function]}
+            placeholder="Enter Wine Name"
+            type="text"
+            value=""
+          />
+          <input
+            id="grape_type"
+            name="grape_type"
+            onChange={[Function]}
+            placeholder="Enter Grape Type"
+            type="text"
+            value=""
+          />
+          <input
+            id="color"
+            name="color"
+            onChange={[Function]}
+            placeholder="Enter Wine Color"
+            type="text"
+            value=""
+          />
+          <input
+            id="production_id"
+            name="production_year"
+            onChange={[Function]}
+            placeholder="Enter Year Wine Produced"
+            type="text"
+            value=""
+          />
+          <input
+            id="score"
+            name="score"
+            onChange={[Function]}
+            placeholder="Enter Wine Score"
+            type="text"
+            value=""
+          />
+          <input
+            id="price"
+            name="price"
+            onChange={[Function]}
+            placeholder="Enter Wine Price"
+            type="text"
+            value=""
+          />
+          <button>
+            Submit Wine
+          </button>
+        </form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add New Wine",
+        },
+        "ref": null,
+        "rendered": "Add New Wine",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              id="wine_name"
+              name="wine_name"
+              onChange={[Function]}
+              placeholder="Enter Wine Name"
+              type="text"
+              value=""
+            />,
+            <input
+              id="grape_type"
+              name="grape_type"
+              onChange={[Function]}
+              placeholder="Enter Grape Type"
+              type="text"
+              value=""
+            />,
+            <input
+              id="color"
+              name="color"
+              onChange={[Function]}
+              placeholder="Enter Wine Color"
+              type="text"
+              value=""
+            />,
+            <input
+              id="production_id"
+              name="production_year"
+              onChange={[Function]}
+              placeholder="Enter Year Wine Produced"
+              type="text"
+              value=""
+            />,
+            <input
+              id="score"
+              name="score"
+              onChange={[Function]}
+              placeholder="Enter Wine Score"
+              type="text"
+              value=""
+            />,
+            <input
+              id="price"
+              name="price"
+              onChange={[Function]}
+              placeholder="Enter Wine Price"
+              type="text"
+              value=""
+            />,
+            <button>
+              Submit Wine
+            </button>,
+          ],
+          "onSubmit": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "wine_name",
+              "name": "wine_name",
+              "onChange": [Function],
+              "placeholder": "Enter Wine Name",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "grape_type",
+              "name": "grape_type",
+              "onChange": [Function],
+              "placeholder": "Enter Grape Type",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "color",
+              "name": "color",
+              "onChange": [Function],
+              "placeholder": "Enter Wine Color",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "production_id",
+              "name": "production_year",
+              "onChange": [Function],
+              "placeholder": "Enter Year Wine Produced",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "score",
+              "name": "score",
+              "onChange": [Function],
+              "placeholder": "Enter Wine Score",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "price",
+              "name": "price",
+              "onChange": [Function],
+              "placeholder": "Enter Wine Price",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Submit Wine",
+            },
+            "ref": null,
+            "rendered": "Submit Wine",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Add New Wine
+          </h1>,
+          <form>
+            <input
+              id="wine_name"
+              name="wine_name"
+              onChange={[Function]}
+              placeholder="Enter Wine Name"
+              type="text"
+              value=""
+            />
+            <input
+              id="grape_type"
+              name="grape_type"
+              onChange={[Function]}
+              placeholder="Enter Grape Type"
+              type="text"
+              value=""
+            />
+            <input
+              id="color"
+              name="color"
+              onChange={[Function]}
+              placeholder="Enter Wine Color"
+              type="text"
+              value=""
+            />
+            <input
+              id="production_id"
+              name="production_year"
+              onChange={[Function]}
+              placeholder="Enter Year Wine Produced"
+              type="text"
+              value=""
+            />
+            <input
+              id="score"
+              name="score"
+              onChange={[Function]}
+              placeholder="Enter Wine Score"
+              type="text"
+              value=""
+            />
+            <input
+              id="price"
+              name="price"
+              onChange={[Function]}
+              placeholder="Enter Wine Price"
+              type="text"
+              value=""
+            />
+            <button>
+              Submit Wine
+            </button>
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add New Wine",
+          },
+          "ref": null,
+          "rendered": "Add New Wine",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                id="wine_name"
+                name="wine_name"
+                onChange={[Function]}
+                placeholder="Enter Wine Name"
+                type="text"
+                value=""
+              />,
+              <input
+                id="grape_type"
+                name="grape_type"
+                onChange={[Function]}
+                placeholder="Enter Grape Type"
+                type="text"
+                value=""
+              />,
+              <input
+                id="color"
+                name="color"
+                onChange={[Function]}
+                placeholder="Enter Wine Color"
+                type="text"
+                value=""
+              />,
+              <input
+                id="production_id"
+                name="production_year"
+                onChange={[Function]}
+                placeholder="Enter Year Wine Produced"
+                type="text"
+                value=""
+              />,
+              <input
+                id="score"
+                name="score"
+                onChange={[Function]}
+                placeholder="Enter Wine Score"
+                type="text"
+                value=""
+              />,
+              <input
+                id="price"
+                name="price"
+                onChange={[Function]}
+                placeholder="Enter Wine Price"
+                type="text"
+                value=""
+              />,
+              <button>
+                Submit Wine
+              </button>,
+            ],
+            "onSubmit": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "wine_name",
+                "name": "wine_name",
+                "onChange": [Function],
+                "placeholder": "Enter Wine Name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "grape_type",
+                "name": "grape_type",
+                "onChange": [Function],
+                "placeholder": "Enter Grape Type",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "color",
+                "name": "color",
+                "onChange": [Function],
+                "placeholder": "Enter Wine Color",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "production_id",
+                "name": "production_year",
+                "onChange": [Function],
+                "placeholder": "Enter Year Wine Produced",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "score",
+                "name": "score",
+                "onChange": [Function],
+                "placeholder": "Enter Wine Score",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "price",
+                "name": "price",
+                "onChange": [Function],
+                "placeholder": "Enter Wine Price",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Submit Wine",
+              },
+              "ref": null,
+              "rendered": "Submit Wine",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

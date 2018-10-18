@@ -36,24 +36,18 @@ ShallowWrapper {
         <div
           className="details"
         >
+          <button
+            className="favorite"
+          />
           <h4 />
           <p />
           <p />
           <p />
-          <a
-            href="http://google.com"
-          />
         </div>,
         <button
           className="delete"
-        >
-          x
-        </button>,
-        <button
-          className="vineyard-link"
-        >
-          Go to vineyard
-        </button>,
+          onClick={[Function]}
+        />,
       ],
       "className": "wine",
     },
@@ -106,18 +100,29 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            <button
+              className="favorite"
+            />,
             <h4 />,
             <p />,
             <p />,
             <p />,
-            <a
-              href="http://google.com"
-            />,
           ],
           "className": "details",
         },
         "ref": null,
         "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "favorite",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "button",
+          },
           Object {
             "instance": null,
             "key": undefined,
@@ -162,18 +167,6 @@ ShallowWrapper {
             "rendered": null,
             "type": "p",
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-              "href": "http://google.com",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "a",
-          },
         ],
         "type": "div",
       },
@@ -182,23 +175,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "x",
           "className": "delete",
+          "onClick": [Function],
         },
         "ref": null,
-        "rendered": "x",
-        "type": "button",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Go to vineyard",
-          "className": "vineyard-link",
-        },
-        "ref": null,
-        "rendered": "Go to vineyard",
+        "rendered": null,
         "type": "button",
       },
     ],
@@ -229,24 +210,18 @@ ShallowWrapper {
           <div
             className="details"
           >
+            <button
+              className="favorite"
+            />
             <h4 />
             <p />
             <p />
             <p />
-            <a
-              href="http://google.com"
-            />
           </div>,
           <button
             className="delete"
-          >
-            x
-          </button>,
-          <button
-            className="vineyard-link"
-          >
-            Go to vineyard
-          </button>,
+            onClick={[Function]}
+          />,
         ],
         "className": "wine",
       },
@@ -299,18 +274,29 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <button
+                className="favorite"
+              />,
               <h4 />,
               <p />,
               <p />,
               <p />,
-              <a
-                href="http://google.com"
-              />,
             ],
             "className": "details",
           },
           "ref": null,
           "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "favorite",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "button",
+            },
             Object {
               "instance": null,
               "key": undefined,
@@ -355,18 +341,6 @@ ShallowWrapper {
               "rendered": null,
               "type": "p",
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-                "href": "http://google.com",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "a",
-            },
           ],
           "type": "div",
         },
@@ -375,23 +349,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "x",
             "className": "delete",
+            "onClick": [Function],
           },
           "ref": null,
-          "rendered": "x",
-          "type": "button",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Go to vineyard",
-            "className": "vineyard-link",
-          },
-          "ref": null,
-          "rendered": "Go to vineyard",
+          "rendered": null,
           "type": "button",
         },
       ],

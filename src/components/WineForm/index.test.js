@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { WinesContainer } from '.';
+import { WineForm } from '.';
 
-describe('WinesContainer', () => {
+describe('WineForm', () => {
   it('should match snapshot', () => {
-    const wrapper = shallow(<WinesContainer wines={[]}/>);
+    const wrapper = shallow(<WineForm />);
     expect(wrapper).toMatchSnapshot();
   })
 })

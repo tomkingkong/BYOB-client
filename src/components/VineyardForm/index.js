@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import { postVineyard } from '../../utils/apiCalls';
-import { WineForm } from '../WineForm';
 import './VineyardForm.css';
 
 const initialState = {
@@ -23,7 +22,6 @@ export class VineyardForm extends Component {
 
   handleChange = e => {
     const { name, value } = e.target;
-    console.log(value)
     this.setState({
       [name]: value
     });
@@ -79,6 +77,7 @@ export class VineyardForm extends Component {
         onChange={this.handleChange}
       />
       <button>Submit Vineyard</button>
+
     </form>
     );
   }
